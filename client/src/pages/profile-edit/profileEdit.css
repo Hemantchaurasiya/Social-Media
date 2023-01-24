@@ -1,0 +1,25 @@
+.span{
+    font-weight: bold;
+}
+
+.inputbox{
+    border: greenyellow;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.submitButton{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}

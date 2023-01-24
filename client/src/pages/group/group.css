@@ -1,0 +1,43 @@
+
+.container ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.container ul li{
+    list-style: none;
+    flex: 0 0 33.333333%;
+}
+
+.login-btn{
+    background: #1877f2;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.input-container > input[type=text],
+.input-container > input[type=password]{
+    width: 100%;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.input-container > input[type=text]:focus,
+.input-container > input[type=password]:focus{
+    border: 1px solid #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff
+}
